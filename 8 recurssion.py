@@ -46,4 +46,14 @@ def is_palindrome(string):
     return string==reversed(string)
 
 
+def fibo_till_n(n):
+    if n == 0:
+        return [0]
+    elif n == 1:
+        return [0, 1]
+    else:
+        prev = fibo_till_n(n - 1)   # get smaller answer
+        next_val = prev[-1] + prev[-2]  # last + second last
+        return prev + [next_val]   # add new number
+    
 

@@ -1,0 +1,14 @@
+There are basically 6 types of sorting algorithms
+
+1. selection sort
+    s1 - in this first we select first element of array.
+    s2 - then we loop through array to find smallest element
+    s3 - we swap these two positions
+    s4 we continue this until our selector reaches end of array
+
+2. bubble sort 
+    s1 - in this we compare two adjacent elements
+    s2 - if left is elemt is greater than right then they are swapped
+    s3 - this is done until the array is sorted
+
+    
