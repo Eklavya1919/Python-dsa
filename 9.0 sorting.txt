@@ -8,7 +8,11 @@ There are basically 6 types of sorting algorithms
 
 2. bubble sort 
     s1 - in this we compare two adjacent elements
-    s2 - if left is elemt is greater than right then they are swapped
+    s2 - if left is element is greater than right then they are swapped
     s3 - this is done until the array is sorted
 
-    
+3. insertion sort
+    s1 - start with second element cuz 1st one is always sorted
+    s2 - check if 2nd element is greter than previous one or not
+    s3 - if its greter then continue if not then swap it with previous  ones until you get it to correct position
+    s4 - do this until the end of array
