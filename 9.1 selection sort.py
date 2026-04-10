@@ -12,27 +12,3 @@
 #     nums[l], nums[miniid] = nums[miniid], nums[l]
  
 # print(nums)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
