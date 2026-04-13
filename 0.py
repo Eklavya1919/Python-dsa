@@ -1,7 +1,12 @@
-i = input()
+n = int(input())
+ans=[]
+for i in range(n):
+    inp = input()
+    a,b = map(int, inp.split())
+    if a%b==0:
+        ans.append(0)
+    else:
+        ans.append(b-a%b)
 
-k,n,w = map(int, i.split())
-
-required = k*w*(w+1)//2
-
-print(required - n)
+for i in ans:
+    print(i)
